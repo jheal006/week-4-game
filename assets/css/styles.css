@@ -1,0 +1,96 @@
+/*/////////////////
+ Basics
+//////////////////*/
+
+body {
+  box-sizing: border-box;
+  background: lightgrey;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+
+/*/////////////////
+ Header
+//////////////////*/
+
+.title {
+  text-align: center;
+  color: black;
+  background-color: red;
+  height: 100px;
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+}
+
+
+.instructions {
+  color: black;
+  background-color: purple;
+  padding: 30px 30px 50px 30px;
+  margin: 10px;
+  height: auto;
+  width: 400px;
+
+}
+
+
+#darkCrystal {
+  color: purple;
+  background-color: black;
+  padding: 30px 30px 50px 30px;
+  margin: 10px;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+
+.scoreKeeper {
+  color: purple;
+  background-color: lightblue;
+  padding: 30px 30px 50px 30px;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.crystalContainer {
+  clear: both;
+}
+
+.crystalBox {
+  clear: both;
+  display: inline-block;
+  color: lightblue;
+  background-color: white;
+  padding: 30px 30px 50px 30px;
+  margin: 10px;
+  height: 100px;
+  width: 50px;
+}
+
+#crystalValue {
+  color: white;
+  background-color: lightblue;
+  padding: 30px 30px 50px 30px;
+  margin: 10px;
+  height: 100px;
+  width: 50px;
+
+}
