@@ -11,7 +11,7 @@
 			  crossorigin="anonymous"></script>
   </head>
   <body>
-
+    
     <div class="title">
       <h1>The Darkkkkkkk Crystal</h1>
     </div>
@@ -19,7 +19,7 @@
         <div class="instructions">
           <p>
              <h2>Help the Nobel Gelfling defeat the Evil Skeksis!!</h2>
-          </p>
+          </p><br>
           <p>
             The Skeksis call a random number at the start of the game, to unlock the Dark Crystal!
           </p>
@@ -40,22 +40,25 @@
         <div id="darkCrystal" val="darkCrystal">
         </div>
         <div class="scoreKeeper">
-            <p id="wins">
-              Wins:
-            </p>
-            <p id="losses">
-              Losses: 
-            </p>
+            <h3>Wins:
+            <span id="wins">
+            </span>
+            </h3>
+            <br>
+            <h3>Losses:
+            <span id="losses">
+            </span>
+            </h3>
         </div>
-
+        <br>
         <div class="crystalContainer">
-          <div class="crystalBox red" value="red"> Red Crystal    </div>
-          <div class="crystalBox blue" value="blue"> Blue Crystal    </div>
-          <div class="crystalBox yellow" value="yellow"> Yellow Crystal    </div>
-          <div class="crystalBox green" value="green"> Green Crystal    </div>
+          <div class="crystalBox red" value="red"> <img src="assets/images/red.png" /> </div>
+          <div class="crystalBox blue" value="blue"><img src="assets/images/blue.png"/> </div>
+          <div class="crystalBox yellow" value="yellow"><img src="assets/images/yellow.png"/> </div>
+          <div class="crystalBox green" value="green"><img src="assets/images/green.png"/> </div>
         </div>
 
-        <div id="crystalValue">
+        <div id="score">
         </div>
 
     <script src="assets/javascript/scripts.js"></script>

@@ -4,7 +4,12 @@
 
 body {
   box-sizing: border-box;
-  background: lightgrey;
+  background-image: url("../images/skeksis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-size: 1.1em;
 }
 
 h1 {
@@ -15,6 +20,11 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 p {
@@ -32,9 +42,9 @@ p {
   color: black;
   background-color: red;
   height: 100px;
-  margin: 10px;
-  width: 200px;
-  padding: 10px;
+  margin: 10px 10px 10px 16px;
+  width: 335px;
+  padding: 26px 10px 0px 10px;
 }
 
 
@@ -42,7 +52,7 @@ p {
   color: black;
   background-color: purple;
   padding: 30px 30px 50px 30px;
-  margin: 10px;
+  margin: 10px 10px 10px 16px;
   height: auto;
   width: 400px;
 
@@ -50,9 +60,12 @@ p {
 
 
 #darkCrystal {
-  color: purple;
-  background-color: black;
-  padding: 30px 30px 50px 30px;
+  text-align: center;
+  background-image: url("../images/dark.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 39px 30px 9px 43px;
   margin: 10px;
   height: 100px;
   width: 200px;
@@ -61,9 +74,12 @@ p {
 
 
 .scoreKeeper {
-  color: purple;
-  background-color: lightblue;
-  padding: 30px 30px 50px 30px;
+  background-image: url("../images/thing.gif");
+  background-size: inherit;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 30px 30px 20px 30px;
   margin: 10px;
   height: 100px;
   width: 100px;
@@ -72,6 +88,11 @@ p {
 
 .crystalContainer {
   clear: both;
+  float: left;
+  display: inline-flex;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  width: 520px;
 }
 
 .crystalBox {
@@ -79,18 +100,45 @@ p {
   display: inline-block;
   color: lightblue;
   background-color: white;
-  padding: 30px 30px 50px 30px;
+  padding: 8px 34px 10px 30px;
   margin: 10px;
-  height: 100px;
-  width: 50px;
+  height: auto;
 }
 
-#crystalValue {
-  color: white;
-  background-color: lightblue;
-  padding: 30px 30px 50px 30px;
-  margin: 10px;
+.red {
+  margin-left: 6px;
+  background: purple;
+  height: 75px;
+  padding: 14px 20px 27px 20px;
+}
+
+.blue {
+  background: purple;
+  height: 75px;
+  padding: 28px 20px 13px 20px;
+}
+
+.yellow {
+  background: purple;
+  height: 75px;
+  padding: 20px;
+}
+
+.green {
+  background: purple;
+  height: 75px;
+  padding: 20px;
+}
+
+
+#score {
+  clear: both;
+  color: purple;
+  text-align: center;
+  background-color: black;
+  padding: 30px 30px 20px 30px;
+  margin: 10px 10px 10px 16px;
   height: 100px;
-  width: 50px;
+  width: 75px;
 
 }
